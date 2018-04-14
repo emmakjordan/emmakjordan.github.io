@@ -93,4 +93,106 @@ a:hover {
 img {
   max-width: 100%;
   height: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: -60%;
+  left: 0%;
+  text-align: center;
+}
+
+.art_text {
+  background-color: #6ebcbf;
+  color: white;
+  font-size: 16px;
+  padding: 2vw 2vw;
+}
+
+.shirt_text {
+  background-color: #6ebcbf;
+  color: white;
+  font-size: 16px;
+  padding: 2vw 2vw;
+}
+
+.games_text {
+  background-color: #6ebcbf;
+  color: white;
+  font-size: 16px;
+  padding: 2vw 2vw;
+}
+
+.ar_text {
+  background-color: #6ebcbf;
+  color: white;
+  font-size: 16px;
+  padding: 2vw 2vw;
+}
+
+.anim_text {
+  background-color: #6ebcbf;
+  color: white;
+  font-size: 16px;
+  padding: 2vw 2vw;
+}
+
+.logo_text {
+  background-color: #6ebcbf;
+  color: white;
+  font-size: 16px;
+  padding: 2vw 2vw;
+}
+
+.art:hover .art_image {
+  opacity: 0.3;
+}
+
+.art:hover .middle {
+  opacity: 1;
+}
+
+.shirt:hover .shirt_image {
+  opacity: 0.3;
+}
+
+.shirt:hover .middle {
+  opacity: 1;
+}
+
+.games:hover .games_image {
+  opacity: 0.3;
+}
+
+.games:hover .middle {
+  opacity: 1;
+}
+
+.AR:hover .ar_image {
+  opacity: 0.3;
+}
+
+.AR:hover .middle {
+  opacity: 1;
+}
+
+.animation:hover .anim_image {
+  opacity: 0.3;
+}
+
+.animation:hover .middle {
+  opacity: 1;
+}
+
+.logo:hover .logo_image {
+  opacity: 0.3;
+}
+
+.logo:hover .middle {
+  opacity: 1;
 }
