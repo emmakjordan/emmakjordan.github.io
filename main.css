@@ -1,0 +1,32 @@
+body {
+  text-align: center
+}
+
+.title {
+font-family: 'Ubuntu Condensed', sans-serif;
+font-size: 4.5em;
+line-height: 1;
+margin-bottom:10px;
+}
+
+.subtitle {
+font-family: 'Poiret One', sans-serif;
+font-size: 1em;
+line-height: .5;
+}
+
+.icon {
+  font-size: 1.5em;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited {
+    color: #382544;
+}
+
+a:hover {
+    color: #6ebcbf;
+}
